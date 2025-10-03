@@ -30,6 +30,18 @@ namespace RemoteControl {
     // block text with spaces
 
     //% block
+    export function up() :number {
+			return _up;
+    }
+    //% block
+    export function down() :number {
+			return _down;
+    }
+
+
+
+	
+    //% block
 
     export function init_HX1838() : void {
 	 _nul = 181
@@ -74,11 +86,3 @@ export function init_Keyestudio () : void {
 	}	
 }
 
-    //% block
-    export function up() :number {
-			return _up;
-    }
-    //% block
-    export function down() :number {
-			return _down;
-    }
