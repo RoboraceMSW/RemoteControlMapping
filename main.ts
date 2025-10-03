@@ -1,3 +1,27 @@
+/**
+ * Functions are mapped to blocks using various macros
+ * in comments starting with %. The most important macro
+ * is "block", and it specifies that a block should be
+ * generated for an **exported** function.
+ */
+
+//% color="#AA278D" weight=100
+namespace RemoteControl {
+    //% block
+    export function init_Keyestudio() {
+
+    }
+
+    // note that Caml casing yields lower case
+    // block text with spaces
+
+    //% block
+    export function init_HX1838() {
+
+    }
+}
+
+
 let nul = 0
 let een = 0
 let twee = 0
