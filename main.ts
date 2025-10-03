@@ -8,14 +8,6 @@
 //% color="#AA278D" weight=100 icon="\uf1ec"
 namespace RemoteControl {
 
-    //% block
-    export function up() :number {
-			return _up;
-    }
-    //% block
-    export function down() :number {
-			return _down;
-    }
 
     // note that Caml casing yields lower case
     // block text with spaces
@@ -63,3 +55,12 @@ namespace RemoteControl {
 export function init_Keyestudio () : void {	
 	}	
 }
+
+    //% block
+    export function up() :number {
+			return _up;
+    }
+    //% block
+    export function down() :number {
+			return _down;
+    }
