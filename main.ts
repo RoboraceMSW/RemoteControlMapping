@@ -7,21 +7,6 @@
 
 //% color="#AA278D" weight=100
 namespace RemoteControl {
-    //% block
-    export function init_Keyestudio() {
-
-    }
-
-    // note that Caml casing yields lower case
-    // block text with spaces
-
-    //% block
-    export function init_HX1838() {
-
-    }
-}
-
-
 let nul = 0
 let een = 0
 let twee = 0
@@ -39,8 +24,9 @@ let rechts = 0
 let ok = 0
 let ster = 0
 let hekje = 0
-function init_HX1838 (initialiseer_IR_variabelen: string) {
-    nul = 25
+    //% block
+    export function init_Keyestudio() {
+	nul = 25
     een = 93
     twee = 157
     drie = 29
@@ -57,9 +43,14 @@ function init_HX1838 (initialiseer_IR_variabelen: string) {
     ok = 199
     ster = 22
     hekje = 13
-}
-function init_Keyestudio (initialiseer_IR_variabelen: string) {
-    nul = 181
+    }
+
+    // note that Caml casing yields lower case
+    // block text with spaces
+
+    //% block
+    export function init_HX1838() {
+	nul = 181
     een = 22
     twee = 25
     drie = 13
@@ -76,6 +67,16 @@ function init_Keyestudio (initialiseer_IR_variabelen: string) {
     ok = 253
     ster = 189
     hekje = 173
+    }
+}
+
+
+
+function init_HX1838 (initialiseer_IR_variabelen: string) {
+
+}
+function init_Keyestudio (initialiseer_IR_variabelen: string) {
+
 }
 basic.forever(function () {
 	
