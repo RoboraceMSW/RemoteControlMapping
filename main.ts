@@ -5,7 +5,7 @@
  */
 
 //% color="#AA278D" weight=100 icon="signal-stream"
-namespace RemoteControl {
+namespace Afstandsbediening {
 	let _nul = 0
    	let _een = 0
     let _twee = 0
