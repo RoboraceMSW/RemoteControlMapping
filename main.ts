@@ -4,7 +4,7 @@
  * icon="\uf1ec
  */
 
-//% color="#AA278D" weight=100 icon="signal-stream"
+//% color="#AA278D" weight=100 icon="\uf005"
 namespace Afstandsbediening {
 	let _nul = 0
    	let _een = 0
