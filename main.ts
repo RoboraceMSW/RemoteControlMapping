@@ -35,7 +35,7 @@ namespace RemoteControl {
     }
     //% block
     export function neer() :number {
-			return _down;
+			return _neer;
     }
 
 
