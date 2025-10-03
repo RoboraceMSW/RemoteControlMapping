@@ -6,7 +6,7 @@
  */
 
 //% color="#AA278D" weight=100
-namespace RemoteControl
+namespace RemoteControl {
 
     //% block
     export function up() :number {
@@ -63,3 +63,4 @@ let	_ster = 22
 let	_hekje = 13
 } : void
 	
+}
