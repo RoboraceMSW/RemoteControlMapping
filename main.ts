@@ -5,7 +5,7 @@
  * generated for an **exported** function.
  */
 
-//% color="#AA278D" weight=100
+//% color="#AA278D" weight=100 icon="\uf1ec"
 namespace RemoteControl {
 
     //% block
@@ -21,7 +21,6 @@ namespace RemoteControl {
     // block text with spaces
 
     //% block
-    export function init_HX1838() {
 	let _nul = 181
    	let _een = 22
     let _twee = 25
@@ -39,11 +38,11 @@ namespace RemoteControl {
     let _ok = 253
     let _ster = 189
     let _hekje = 173
-    } : void
+    export function init_HX1838() : void {
+    } 
 
 
 //% block
-export function init_Keyestudio (initialiseer_IR_variabelen: string) {
 	let	_nul = 25
 	let	_een = 93
 	let _twee = 157
@@ -61,6 +60,6 @@ export function init_Keyestudio (initialiseer_IR_variabelen: string) {
 	let	_ok = 199
 	let	_ster = 22
 	let	_hekje = 13
-} : void
-	
+export function init_Keyestudio () : void {	
+	}	
 }
