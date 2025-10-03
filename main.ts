@@ -21,7 +21,7 @@ namespace RemoteControl {
     // block text with spaces
 
     //% block
-    export function init_HX1838(initialiseer_IR_variabelen: string) {
+    export function init_HX1838() {
 	let _nul = 181
    	let _een = 22
     let _twee = 25
