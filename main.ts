@@ -30,11 +30,11 @@ namespace RemoteControl {
     // block text with spaces
 
     //% block
-    export function up() :number {
-			return _up;
+    export function op() :number {
+			return _op;
     }
     //% block
-    export function down() :number {
+    export function neer() :number {
 			return _down;
     }
 
