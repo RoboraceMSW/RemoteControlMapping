@@ -7,42 +7,30 @@
 
 //% color="#AA278D" weight=100
 namespace RemoteControl {
-let nul = 0
-let een = 0
-let twee = 0
-let drie = 0
-let vier = 0
-let vijf = 0
-let zes = 0
-let zeven = 0
-let acht = 0
-let negen = 0
-let op = 0
-let neer = 0
-let links = 0
-let rechts = 0
-let ok = 0
-let ster = 0
-let hekje = 0
+let	_nul = 25
+let	_een = 93
+let _twee = 157
+let _drie = 29
+let	_vier = 221
+let	_vijf = 253
+let	_zes = 61
+let	_zeven = 31
+let	_acht = 21
+let	_negen = 9
+let	_op = 24
+let	_neer = 181
+let	_links = 8
+let	_rechts = 165
+let	_ok = 199
+let	_ster = 22
+let	_hekje = 13
     //% block
-    export function init_Keyestudio() {
-	nul = 25
-    een = 93
-    twee = 157
-    drie = 29
-    vier = 221
-    vijf = 253
-    zes = 61
-    zeven = 31
-    acht = 21
-    negen = 9
-    op = 24
-    neer = 181
-    links = 8
-    rechts = 165
-    ok = 199
-    ster = 22
-    hekje = 13
+    export function up() :number {
+			return _up;
+    }
+    //% block
+    export function down() :number {
+			return _down;
     }
 
     // note that Caml casing yields lower case
