@@ -1,8 +1,7 @@
 /**
- * Functions are mapped to blocks using various macros
- * in comments starting with %. The most important macro
- * is "block", and it specifies that a block should be
- * generated for an **exported** function. icon="\uf1ec
+ * Mappings for various remote control units, 
+ * exposing functional key variables
+ * icon="\uf1ec
  */
 
 //% color="#AA278D" weight=100 icon="signal-stream"
