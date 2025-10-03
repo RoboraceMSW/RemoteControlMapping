@@ -2,10 +2,10 @@
  * Functions are mapped to blocks using various macros
  * in comments starting with %. The most important macro
  * is "block", and it specifies that a block should be
- * generated for an **exported** function.
+ * generated for an **exported** function. icon="\uf1ec
  */
 
-//% color="#AA278D" weight=100 icon="\uf1ec"
+//% color="#AA278D" weight=100 icon="signal-stream"
 namespace RemoteControl {
 	let _nul = 0
    	let _een = 0
