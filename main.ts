@@ -37,13 +37,95 @@ namespace RemoteControl {
     export function neer() :number {
 			return _neer;
     }
-
-
-
-	
     //% block
+    export function links() :number {
+			return _links;
+    }
+	//% block
+    export function rechts() :number {
+			return _rechts;
+    }
+	//% block
+    export function ok() :number {
+			return _ok;
+    }
+	//% block
+    export function een() :number {
+			return _een;
+    }
+	//% block
+    export function twee() :number {
+			return _twee;
+    }
+	//% block
+    export function drie() :number {
+			return _drie;
+    }
+	//% block
+    export function vier() :number {
+			return _vier;
+    }
+	//% block
+    export function vijf() :number {
+			return _vijf;
+    }
+	//% block
+    export function zes() :number {
+			return _zes;
+    }
+	//% block
+    export function zeven() :number {
+			return _zeven;
+    }
+    //% block
+    export function acht() :number {
+			return _acht;
+    }
+    //% block
+    export function negen() :number {
+			return _negen;
+    }
+    //% block
+    export function nul() :number {
+			return _nul;
+    }	
+    //% block
+    export function ster() :number {
+			return _ster;
+    }
+    //% block
+    export function hekje() :number {
+			return _hekje;
+    }
+	
+	
+	
+	//% block
 
-    export function init_HX1838() : void {
+    export function init_rc_hx1838() : void {
+	_nul = 25
+	_een = 93
+	_twee = 157
+	_drie = 29
+	_vier = 221
+	_vijf = 253
+	_zes = 61
+	_zeven = 31
+	_acht = 21
+	_negen = 9
+	_op = 24
+	_neer = 181
+	_links = 8
+	_rechts = 165
+	_ok = 199
+	_ster = 22
+	_hekje = 13
+	} 
+
+
+//% block
+
+export function init_rc_keyestudio () : void {	
 	 _nul = 181
    	 _een = 22
      _twee = 25
@@ -60,29 +142,6 @@ namespace RemoteControl {
      _ok = 253
      _ster = 189
      _hekje = 173
-	} 
-
-
-//% block
-
-export function init_Keyestudio () : void {	
-	_nul = 25
-	_een = 93
-	 _twee = 157
-	 _drie = 29
-	_vier = 221
-	_vijf = 253
-	_zes = 61
-	_zeven = 31
-	_acht = 21
-	_negen = 9
-	_op = 24
-	_neer = 181
-	_links = 8
-	_rechts = 165
-	_ok = 199
-	_ster = 22
-	_hekje = 13
 	}	
 }
 
