@@ -21,7 +21,10 @@ There is no standard mapping from key position to raw IR code, so codes vary bet
 
 Add the extension to your project. Now a function block init_<your_model> is available for use in the 'at startup' loop.
 
- 
+## Current mappings available
+* [HX1338](https://github.com/RoboraceMSW/DecodeHX1838) Often included in [cheap chinese IR receiver kits](https://nl.aliexpress.com/item/1005010131227266.html). Use block **'init_rc_hx1838'**.
+* [Keyestudio remote](https://github.com/RoboraceMSW/DecodeKeyestudioRC) Packaged with several products from [Keyestudio](https://www.keyestudio.com/products/keyestudio-ir-receiver-module-kitreceiver-moduleremote-controller3pin-f-m-dupont-line-for-arduino). Use block **'init_rc_keyestudio'**.
+* [Baltimore remote](https://github.com/RoboraceMSW/DecodeBaltimoreRC) Included with several [Baltimore floodlights](./baltimore_doos1.jpeg) such as  3000 lumen, 50W LED Floodlight (ZD Trading Model No. 3005472). Use block **'init_rc_baltimore'**.  
 
 
 ## Gebruiken als extensie
