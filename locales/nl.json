@@ -1,1 +1,5 @@
 // Dutch localisation
+{
+    "namespace.remotecontrol": "Afstandsbediening",
+    "greeting": "Hello"
+}
