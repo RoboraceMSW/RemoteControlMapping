@@ -5,7 +5,7 @@
  */
 
 //% color="#AA278D" weight=100 icon="\uf005"
-namespace Remotecontrol {
+namespace remotecontrol {
 	// generic colom/row coordinates 
 	// (some positions may not be present depending on model):
 	let _A1 = 0
