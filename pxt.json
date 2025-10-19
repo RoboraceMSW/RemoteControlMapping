@@ -1,6 +1,6 @@
 {
     "name": "RemoteControlMapping",
-    "description": "",
+    "description": "Key-to-code mappings for various 21 key IR remote control devices",
     "dependencies": {
         "core": "*",
         "radio": "*",
@@ -21,5 +21,10 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "blocksprj",
+     "locales": [
+        "en",
+        "nl"
+    ],
+    "public": true
 }
