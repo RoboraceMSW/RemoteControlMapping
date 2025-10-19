@@ -11,7 +11,7 @@
         "main.ts",
         "README.md",
         "./locales/en.json",
-        "./locales/en.json"
+        "./locales/nl.json"
     ],
     "testFiles": [
         "test.ts"
