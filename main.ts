@@ -256,7 +256,7 @@ export function init_rc_keyestudio () : void {
      _ster = 189
      _hekje = 173
 	}	
-}
+
 
 //% block
 
