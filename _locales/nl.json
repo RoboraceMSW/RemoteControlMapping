@@ -1,5 +1,5 @@
 {
     "_comment": "Dutch localisation",
-    "namespace.remotecontrol": "Afstandsbediening",
+    "namespace.remoteControl": "Afstandsbediening",
     "greeting": "Hello"
 }
