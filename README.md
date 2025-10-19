@@ -15,7 +15,11 @@ There is no standard mapping from key position to raw IR code, so codes vary bet
 ## Adding a new RC model
 
 1. Determine the raw IR codes for your RC model, e.g. using [ShowRawIRCode](https://github.com/RoboraceMSW/ShowRawIRCode)
-2. Edit 
+2. Edit [main.ts](./main.ts) :
+    * add 'export function init_<your_model> () void: {'
+    * add your table IR codes e.g. '_nul = 255' for all buttons present on your remote
+
+Add the extension to your project. Now a function block init_<your_model> is available for use in the 'at startup' loop.
 
  
 
