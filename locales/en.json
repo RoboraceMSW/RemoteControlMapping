@@ -1,1 +1,5 @@
-// English localisations
+{
+    "_comment": "English localisation",
+    "namespace.remotecontrol": "Remote Control",
+    "greeting": "Hello"
+}
