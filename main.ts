@@ -4,8 +4,8 @@
  * icon="\uf1ec"
  */
 
-//% color="#AA278D" weight=100 icon="\uf005" block="_category_remote_control"
-namespace remoteControl {
+//% color="#AA278D" weight=100 icon="\uf005"
+namespace Afstandsbediening {
 	// generic colom/row coordinates 
 	// (some positions may not be present depending on model):
 	let _A1 = 0
@@ -261,27 +261,27 @@ export function init_rc_keyestudio () : void {
 //% block
 
 export function init_rc_baltimore () : void {	
-	_A1 = 23 // lamp
-	_B1 = 0  // n/a
-	_C1 = 63 // auto
-	_A2 = 4  // bright
-	_B2 = 6  // medium bright
-	_C2 = 31 // dim
-	_A3 = 8  // high sensitive
-	_B3 = 10 // medium sensitive
-	_C3 = 47 // low sensitive
-	_A4 = 12 // 10 sec
-	_B4 = 14 // 1 min	
-	_C4 = 15 // 5 min
-	_A5 = 16 // 30 min
-	_B5 = 17 // 1hr
-	_C5 = 55 // light2
-	_A6 = 20 // full sun
-	_B6 = 21 // half sun
-	_C6 = 22 // moon
-	_A7 = 0 // n/a
-	_B7 = 0 // n/a
-	_C7 = 0 // n/a
+	_A1 = 23 
+	_B1 = 0  
+	_C1 = 63 
+	_A2 = 4  
+	_B2 = 6  
+	_C2 = 31 
+	_A3 = 8  
+	_B3 = 10 
+	_C3 = 47 
+	_A4 = 12 
+	_B4 = 14 
+	_C4 = 15
+	_A5 = 16 
+	_B5 = 17 
+	_C5 = 55 
+	_A6 = 20 
+	_B6 = 21 
+	_C6 = 22 
+	_A7 = 0 
+	_B7 = 0 
+	_C7 = 0 
 	}	
 }
 
