@@ -1,10 +1,10 @@
 /**
  * Mappings for various remote control units, 
  * exposing functional key variables
- * icon="\uf1ec
+ * icon="\uf1ec"
  */
 
-//% color="#AA278D" weight=100 icon="\uf005" 
+//% color="#AA278D" weight=100 icon="\uf005" block="_category_remote_control"
 namespace remoteControl {
 	// generic colom/row coordinates 
 	// (some positions may not be present depending on model):
