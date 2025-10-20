@@ -4,7 +4,7 @@
  * icon="\uf1ec
  */
 
-//% color="#AA278D" weight=100 icon="\uf005" block="_category_remote_control" 
+//% color="#AA278D" weight=100 icon="\uf005" 
 namespace remoteControl {
 	// generic colom/row coordinates 
 	// (some positions may not be present depending on model):
