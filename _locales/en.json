@@ -1,5 +1,5 @@
 {
     "_comment": "English localisation",
-    "namespace.remoteControl": "Remote Control",
+    "_category_remote_control": "Remote Control",
     "greeting": "Hello"
 }
