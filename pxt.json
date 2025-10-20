@@ -1,5 +1,6 @@
 {
     "name": "RemoteControlMapping",
+    "version": "0.0.1",
     "description": "Key-to-code mappings for various 21 key IR remote control devices",
     "dependencies": {
         "core": "*",
