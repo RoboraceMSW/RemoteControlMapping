@@ -274,5 +274,30 @@ export function init_rc_baltimore () : void {
 	_B7 = 0 
 	_C7 = 0 
 	}	
+
+//% block
+export function init_rc_auriol () : void {	
+	_A1 = 93 
+	_B1 = 157  
+	_C1 = 29 
+	_A2 = 221  
+	_B2 = 253  
+	_C2 = 61 
+	_A3 = 31  
+	_B3 = 21 
+	_C3 = 9 
+	_A4 = 22 
+	_B4 = 25 
+	_C4 = 13
+	_A5 = 12 
+	_B5 = 24 
+	_C5 = 133 
+	_A6 = 8 
+	_B6 = 199 
+	_C6 = 165 
+	_A7 = 189 
+	_B7 = 181 
+	_C7 = 173 
+	}		
 }
 
