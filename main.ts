@@ -4,7 +4,7 @@
  * icon="\uf1ec"
  */
 
-//% color="#AA278D" weight=100 icon="\uf005"  block="Remote Control" block.loc.nl="Afstandsbediening"
+//% color="#AA278D" weight=100 icon="\uf005"  block="RemoteControl" block.loc.nl="Afstandsbediening"
 namespace remoteControl {
 	// generic colom/row coordinates 
 	// (some positions may not be present depending on model):
