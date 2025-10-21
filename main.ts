@@ -4,8 +4,8 @@
  * icon="\uf1ec"
  */
 
-//% color="#AA278D" weight=100 icon="\uf005"
-namespace Afstandsbediening {
+//% color="#AA278D" weight=100 icon="\uf005"  block="remoteControl" block.loc.nl="Afstandsbediening"
+namespace remoteControl {
 	// generic colom/row coordinates 
 	// (some positions may not be present depending on model):
 	let _A1 = 0
@@ -50,12 +50,6 @@ namespace Afstandsbediening {
     let _hekje = 0
 
 
-
-    // note that Caml casing yields lower case
-    // block text with spaces
-
-
-    //% block
 	// generic col/row names
 	//% block
     export function A1() :number {
@@ -214,7 +208,6 @@ namespace Afstandsbediening {
 	
 	
 	//% block
-
     export function init_rc_hx1838() : void {
 	_nul = 25
 	_een = 93
@@ -237,7 +230,6 @@ namespace Afstandsbediening {
 
 
 //% block
-
 export function init_rc_keyestudio () : void {	
 	 _nul = 181
    	 _een = 22
@@ -259,7 +251,6 @@ export function init_rc_keyestudio () : void {
 
 
 //% block
-
 export function init_rc_baltimore () : void {	
 	_A1 = 23 
 	_B1 = 0  
