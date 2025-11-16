@@ -220,27 +220,27 @@ namespace remoteControl {
 			return _off;
     }
 	//% block
-    export function 30min() :number {
+    export function min30() :number {
 			return _30min;
     }
 	//% block
-    export function 1h() :number {
+    export function h1() :number {
 			return _1h;
     }
 	//% block
-    export function 2h() :number {
+    export function h2() :number {
 			return _2h;
     }
 	//% block
-    export function 10pct() :number {
+    export function pct10() :number {
 			return _10pct;
     }
 	//% block
-    export function 50pct() :number {
+    export function pct50() :number {
 			return _50pct;
     }
 	//% block
-    export function 100pct() :number {
+    export function pct100() :number {
 			return _100pct;
     }
 
