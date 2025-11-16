@@ -48,8 +48,15 @@ namespace remoteControl {
     let _ok = 0
     let _ster = 0
     let _hekje = 0
-
-
+	let _on = 0
+	let _off = 0
+	let _10pct = 0
+	let _50pct = 0
+	let _100pct = 0
+	let _30min = 0
+	let _1h = 0
+	let _2h = 0
+	
 	// generic col/row names
 	//% block
     export function A1() :number {
@@ -204,7 +211,39 @@ namespace remoteControl {
     export function hekje() :number {
 			return _hekje;
     }
-	
+	//% block
+    export function on() :number {
+			return _on;
+    }
+	//% block
+    export function off() :number {
+			return _off;
+    }
+	//% block
+    export function 30min() :number {
+			return _30min;
+    }
+	//% block
+    export function 1h() :number {
+			return _1h;
+    }
+	//% block
+    export function 2h() :number {
+			return _2h;
+    }
+	//% block
+    export function 10pct() :number {
+			return _10pct;
+    }
+	//% block
+    export function 50pct() :number {
+			return _50pct;
+    }
+	//% block
+    export function 100pct() :number {
+			return _100pct;
+    }
+
 	
 	
 	//% block
@@ -298,6 +337,18 @@ export function init_rc_auriol () : void {
 	_A7 = 189 
 	_B7 = 181 
 	_C7 = 173 
-	}		
+	}	
+
+		//% block
+    export function init_rc_wall_light() : void {
+	_on = 157
+	_off = 21
+	_10pct = 12
+	_50pct = 24
+	_100pct = 133
+	_30min = 8
+	_1h = 199
+	_2h = 165
+	} 
 }
 
