@@ -340,7 +340,7 @@ export function init_rc_auriol () : void {
 	}	
 
 		//% block
-    export function init_rc_wall_light() : void {
+    export function init_rc_wallLight() : void {
 	_on = 157
 	_off = 21
 	_10pct = 12
